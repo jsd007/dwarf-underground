@@ -7,41 +7,17 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Cinzel Decorative', cursive;
 }
 
-.avatar {
-  height: 80px;
+
+footer {
+  height: 4em;
+  background-color: #333;
+  border-top: 1px solid #666;
 }
 
-.avatar img {
-  border-radius: 50%;
-  height: 80px;
-  display: inline-block;
-  margin-top: -24px;
-}
-
-.author-info {
-  display: inline-block;
-  padding: 10px;
-}
-
-.author-info p {
-  margin: 0;
-  padding: 5px 0;
+footer h6 {
   color: #666;
+  line-height: 4em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  display: inline-block;
 }
-
-.interject {
-  font-size: 1.5em;
-  font-weight: 700;
-  border-left: 4px solid #CFB53B;
-  padding-left: 10px;
-  color: #333;
-  margin: 20px 0;
-}
-
-.gold {
-  color: #CFB53B;
-}
-
-
-
-

@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 import './Ad.css'
 
 class Ad extends Component {
-    render() {
+  render() {
     return (
-        <aside className="large-4 medium-12 columns">
+      <aside className="large-4 medium-12 columns">
         <div className="ad">
           <h3>The Last Hammer You'll Ever Need</h3>
           <div className="ad-image">
@@ -18,7 +18,7 @@ class Ad extends Component {
         </div>
       </aside>
     )
-    }
+  }
 }
 
 export default Ad
