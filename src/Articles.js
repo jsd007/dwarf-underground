@@ -4,6 +4,14 @@ import Ad from './Ad'
 import OtherArticles from './OtherArticles'
 
 class Articles extends Component {
+    constructor() {
+      super()
+
+      this.state = {
+        showComments: true
+      }
+    }
+    
     render() {
     return (
     <main className="expanded row">
@@ -41,6 +49,11 @@ class Articles extends Component {
             <span className="article-link-text">Share Post</span>
           </a>
         </div>
+        {
+         (this.state.showComments ? <p>Comments!</p> : null)
+        }
+
+
       </div>
       <Ad />
       <OtherArticles />
